@@ -111,6 +111,10 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            Text(
+              "Bijoy rudra paul",
+              style: TextStyle(fontSize: 30, color: Colors.green),
+            ),
           ],
         ),
       ),
