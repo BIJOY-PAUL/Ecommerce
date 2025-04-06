@@ -1,4 +1,4 @@
-import 'package:ecommerce/pages/home.dart';
+import 'package:ecommerce/pages/onbording.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,6 +10,10 @@ class myApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: homeScreen());
+    return MaterialApp(
+
+      debugShowCheckedModeBanner: false,
+      
+      home: Onbording());
   }
 }
